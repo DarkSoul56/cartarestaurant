@@ -1,16 +1,23 @@
 body {
     background-image: url("https://i.gifer.com/3fGj.gif");
 text-align: center;
-background-position: center;
-background-size: cover;
+background-position: top;
+background-size: 240px;
+background-attachment: fixed;
 }
 .nombre{
     background-image: url("https://i.imgur.com/mnGgeN1.gif");
     background-color: blue;
-    color:rgb(255, 255, 255);
+    color:rgb(223, 41, 41);
     padding:20px;
 }
 div {
-    background-image: url("https://images.unsplash.com/photo-1516469679150-4fdd1f114f97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JleSUyMGNsb3VkfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
-    margin: 0px 125px;
+    background-image: url("sky.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0px 125px;
+    padding: 10px 0px;
+    color:white;
 }
