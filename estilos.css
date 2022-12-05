@@ -11,6 +11,9 @@ background-attachment: fixed;
     padding:20px;
 }
 
+h1,h2,h3 {
+text-decoration: underline;
+}
 div {
     background-image: url("img/sky.jpg");
     background-position: center;
