@@ -1,20 +1,9 @@
 body {
     background-image: url("img/skull.gif");
-text-align: center;
-background-position: top;
-background-size: 240px;
-background-attachment: fixed;
-}
-.nombre{
-    background-image: url("img/raining\ skull.gif");
-    color:rgb(223, 41, 41);
-    padding:20px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-h1,h2,h3 {
-text-decoration: underline;
+    text-align: center;
+    background-position: top;
+    background-size: 240px;
+    background-attachment: fixed;
 }
 
 div {
@@ -22,7 +11,22 @@ div {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin:0px 25%;
+    margin: 0px 25%;
     padding: 10px 0px;
-    color:white;
+    color: white;
 }
+
+.nombre {
+    background-image: url("img/raining\ skull.gif");
+    color: rgb(223, 41, 41);
+    padding: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+}
+
