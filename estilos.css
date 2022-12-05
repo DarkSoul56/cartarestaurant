@@ -1,22 +1,21 @@
 body {
-    background-image: url("https://i.gifer.com/3fGj.gif");
+    background-image: url("img/skull.gif");
 text-align: center;
 background-position: top;
 background-size: 240px;
 background-attachment: fixed;
 }
 .nombre{
-    background-image: url("https://i.imgur.com/mnGgeN1.gif");
-    background-color: blue;
+    background-image: url("img/raining\ skull.gif");
     color:rgb(223, 41, 41);
     padding:20px;
 }
+
 div {
-    background-image: url("sky.jpg");
+    background-image: url("img/sky.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     margin:0px 125px;
     padding: 10px 0px;
     color:white;
