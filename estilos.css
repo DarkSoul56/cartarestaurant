@@ -9,17 +9,20 @@ background-attachment: fixed;
     background-image: url("img/raining\ skull.gif");
     color:rgb(223, 41, 41);
     padding:20px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 h1,h2,h3 {
 text-decoration: underline;
 }
+
 div {
     background-image: url("img/sky.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin:0px 125px;
+    margin:0px 25%;
     padding: 10px 0px;
     color:white;
 }
