@@ -3,8 +3,8 @@ body {
     text-align: center;
     background-position: top;
     background-size: 35%;
-    background-attachment: fixed;
-    width:90%;margin: 0 auto;min-width:600px;max-width:2000px
+    background-attachment:fixed;
+
 }
 
 div {
@@ -23,6 +23,26 @@ div {
     padding: 20px;
     text-decoration: none;
     text-transform: capitalize;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Bungee Spice', cursive;
+    color:orangered;
+}
+
+h2 {
+    font-family: 'Nabla', cursive;
+    color:gold;
+}
+
+h3{
+    font-family: 'Kenia', cursive;
+    color:bisque;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1, h2, h3 {
