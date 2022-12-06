@@ -17,6 +17,11 @@ div {
     color: white;
 }
 
+.hrLinea{
+    width: 75%;
+    display: inline-block;
+    border: 1px solid #1BB286; 
+}
 .nombre {
     background-image: url("img/raining\ skull.gif");
     color: rgb(223, 41, 41);
