@@ -2,7 +2,7 @@ body {
     background-image: url("img/skull.gif");
     text-align: center;
     background-position: top;
-    background-size: 240px;
+    background-size: 35%;
     background-attachment: fixed;
 }
 
@@ -12,7 +12,7 @@ div {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px 25%;
-    padding: 10px 0px;
+    padding: 2% 0px;
     color: white;
 }
 
@@ -24,9 +24,7 @@ div {
     text-transform: capitalize;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     text-decoration: underline;
 }
 
