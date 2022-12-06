@@ -13,7 +13,7 @@ div {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px 25%;
-    padding: 2%;
+    padding: 2% 4%;
     color: white;
 }
 
@@ -21,7 +21,13 @@ div {
     width: 75%;
     display: inline-block;
     border: 1px solid #1BB286; 
-    color:#1BB286;
+    background-color:#1BB286;
+}
+
+.precio {
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .nombre {
     background-image: url("img/raining\ skull.gif");
@@ -54,4 +60,26 @@ h4 {
 h1, h2, h3 {
     text-decoration: underline;
 }
+ table {
+    border-collapse:separate;
+    width: 100%;
 
+ }
+ td {
+    border-style: ridge;
+    height:75px;
+    width:50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+ }
+.finde {
+    margin: 0% 10%;
+}
+ .pechuga {
+    background-image:url("img/Pechuga_de_pollo_con_patatas.jpg");
+ }
+
+ .croquetas {
+    background-image: url("img/croquetas.jpeg");
+ }
