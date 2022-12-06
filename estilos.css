@@ -4,6 +4,7 @@ body {
     background-position: top;
     background-size: 35%;
     background-attachment: fixed;
+    width:90%;margin: 0 auto;min-width:600px;max-width:2000px
 }
 
 div {
