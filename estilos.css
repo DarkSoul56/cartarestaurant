@@ -67,8 +67,8 @@ h1, h2, h3 {
  }
  td {
     border-style: ridge;
-    height:75px;
-    width:50px;
+    height:100px;
+    width:25%;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
