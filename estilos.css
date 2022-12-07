@@ -3,8 +3,17 @@ body {
     text-align: center;
     background-position: top;
     background-size: 35%;
-    background-attachment:fixed;
+    background-attachment: fixed;
 
+}
+
+.nombre {
+    background-image: url("img/raining\ skull.gif");
+    color: rgb(223, 41, 41);
+    padding: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: italic;
 }
 
 div {
@@ -17,11 +26,14 @@ div {
     color: white;
 }
 
-.hrLinea{
+img {
+height: 250px;
+}
+.hrLinea {
     width: 75%;
     display: inline-block;
-    border: 1px solid #1BB286; 
-    background-color:#1BB286;
+    border: 1px solid #1BB286;
+    background-color: #1BB286;
 }
 
 .precio {
@@ -29,59 +41,147 @@ div {
     font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
 }
-.nombre {
-    background-image: url("img/raining\ skull.gif");
-    color: rgb(223, 41, 41);
-    padding: 20px;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-style: italic;
-}
 
 h1 {
     font-family: 'Bungee Spice', cursive;
-    color:orangered;
+    color: orangered;
 }
 
 h2 {
     font-family: 'Nabla', cursive;
-    color:gold;
+    color: gold;
 }
 
-h3{
+h3 {
     font-family: 'Kenia', cursive;
-    color:bisque;
+    color: bisque;
 }
 
 h4 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-decoration: underline;
 }
- table {
-    border-collapse:separate;
+
+table {
+    border-collapse: separate;
     width: 100%;
 
- }
- td {
+}
+
+td {
     border-style: ridge;
-    height:100px;
-    width:25%;
+    height: 150px;
+    width: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
- }
+    background-size: cover;
+    border-radius: 25%;
+}
+
 .finde {
     margin: 0% 10%;
+    font-size: 125%;
 }
- .pechuga {
-    background-image:url("img/Pechuga_de_pollo_con_patatas.jpg");
- }
 
- .croquetas {
+/*Carnes*/
+.pechuga {
+    background-image: url("img/Pechuga_de_pollo_con_patatas.jpg");
+}
+
+.cochino {
+    background-image: url("img/cochinillo.jpg");
+}
+
+.lomo {
+    background-image: url("img/lomo.jpg");
+}
+
+.churrasco {
+    background-image: url("img/churrasco.jpg");
+}
+
+.solomillo {
+    background-image: url("img/solomillo.jpg");
+}
+
+/*Ensaladas*/
+.campera {
+    background-image: url("img/ensalada.jpg");
+}
+
+.rusa {
+    background-image: url("img/rusa.jpg");
+}
+
+.mixta {
+    background-image: url("img/mixta.jpg");
+}
+
+.cesar {
+    background-image: url("img/cesar.jpg");
+}
+
+.pimiento {
+    background-image: url("img/pimientos.jpg");
+}
+
+/*Bocatas*/
+.calamar {
+    background-image: url("img/boccalamar.jpg");
+}
+
+.chorizo {
+    background-image: url("img/chorizo.jpg");
+}
+
+.atun {
+    background-image: url("img/atun.jpg");
+}
+
+.tortilla {
+    background-image: url("img/tortilla.jpg");
+}
+
+.jamon {
+    background-image: url("img/jamon.jpg");
+}
+
+/*Pescados*/
+.lubina {
+    background-image: url("img/lubina.jpg");
+}
+
+.bacalao {
+    background-image: url("img/bacalao.jpg");
+}
+
+.dorada {
+    background-image: url("img/dorada.jpg");
+}
+
+.merluza {
+    background-image: url("img/merluza.jpg");
+}
+
+.salmon {
+    background-image: url("img/salmon.jpg");
+}
+
+/*Otros*/
+.croquetas {
     background-image: url("img/croquetas.jpeg");
- }
- .auz{ 
-    background-image: url("img/412503301995.jpg");}
+}
+
+.hamburguesa {
+    background-image: url("img/hamburguesa.jpg");
+}
+
+.owner {
+    text-align: right;
+    font-size: 75%;
+}
